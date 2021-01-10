@@ -1,2 +1,2 @@
-# connect6-protocol
+# connectsix-protocol
 Communication protocol for connect6 game based on tcp
