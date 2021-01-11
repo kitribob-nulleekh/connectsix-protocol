@@ -82,7 +82,6 @@ Communication protocol for connect6 game based on tcp
 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
 | - | - | - | - | - | - | - | - | - |
 
-
 #### PUT
 
 바둑돌을 둘 위치 전송
@@ -98,5 +97,4 @@ Communication protocol for connect6 game based on tcp
 
 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
 | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - |
-
 
