@@ -24,10 +24,17 @@ Communication protocol for connect6 game based on tcp
 
 ### Packets
 
-- 모든 패킷은 1바이트의 플래그와 그 플래그에 맞는 데이터로 구성되어 있다.
+- 모든 패킷은 1바이트의 플래그와 그 플래그에 맞는 데이터로 구성되어 있다
 
-| 1byte flag | nbyte data |
-| ---------- | ---------- |
+| flag | data |
+| ---- | ---- |
+| 1byte | nbit |
+
+- flag의 각 비트는 아래와 같은 의미를 가진다
+
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+| - | - | - | - | - | - | - | - |
+| [IN](#IN) | [READY](#READY) | [START](#START) | [PUT](#PUT) | [RESULT](#RESULT) | [OVER](#OVER) | [RESERVED](#RESURVED) | [ERROR](#ERROR) |
 
 #### IN
 
@@ -35,8 +42,9 @@ Communication protocol for connect6 game based on tcp
 
 - 구성
 
-| 1byte flag |
-| ---------- |
+| flag |
+| ---- |
+| 1byte |
 
 - 예시
 
@@ -49,8 +57,9 @@ Communication protocol for connect6 game based on tcp
 
 - 구성
 
-| 1byte flag |
-| ---------- |
+| flag |
+| ---- |
+| 1byte |
 
 - 예시
 
