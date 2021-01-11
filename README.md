@@ -17,3 +17,8 @@ Communication protocol for connect6 game based on tcp
 - [OVER](#OVER)
 - [ERROR](#ERROR)
 
+#### Client to Server
+
+- [IN](#IN)
+- [PUT](#PUT)
+
