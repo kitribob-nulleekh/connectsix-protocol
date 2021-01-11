@@ -29,3 +29,18 @@ Communication protocol for connect6 game based on tcp
 | 1byte flag | nbyte data |
 | ---------- | ---------- |
 
+#### IN
+
+게임 참가 의사를 표현
+
+- 구성
+
+| 1byte flag |
+| ---------- |
+
+- 예시
+
+| 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| - | - | - | - | - | - | - | - |
+
+
