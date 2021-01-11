@@ -22,3 +22,10 @@ Communication protocol for connect6 game based on tcp
 - [IN](#IN)
 - [PUT](#PUT)
 
+### Packets
+
+- 모든 패킷은 1바이트의 플래그와 그 플래그에 맞는 데이터로 구성되어 있다.
+
+| 1byte flag | nbyte data |
+| ---------- | ---------- |
+
