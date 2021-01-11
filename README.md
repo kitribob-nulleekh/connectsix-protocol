@@ -155,3 +155,30 @@ Communication protocol for connect6 game based on tcp
 			| 0 |
 			| - |
 
+#### OVER
+
+게임의 승패가 결정된 후 결과 안내
+
+- 구성
+
+| flag | timeout | draw | winner |
+| ---- | ------- | ---- | ------ |
+| 1byte | 1bit | 1bit | 1bit |
+
+- 예시
+	- 무승부인 경우
+		| 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 1 | 0 |
+		| - | - | - | - | - | - | - | - | - | - | - |
+	- elements
+		- flag (OVER)
+			| 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
+			| - | - | - | - | - | - | - | - |
+		- timeout (FALSE)
+			| 0 |
+			| - |
+		- draw (TRUE)
+			| 1 |
+			| - |
+		- winner (WHITE, ignored)
+			| 0 |
+			| - |
