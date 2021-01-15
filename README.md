@@ -1,5 +1,5 @@
 # connectsix-protocol
-Communication protocol for connect6 game based on tcp
+Communication protocol for connectsix game based on tcp
 
 ## Prerequisite
 
